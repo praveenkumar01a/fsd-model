@@ -1,0 +1,59 @@
+body {
+    font-family: Arial;
+    background: #f2f2f2;
+}
+
+.container {
+    width: 850px;
+    margin: 30px auto;
+    background: white;
+    padding: 25px;
+}
+
+h1,
+h2 {
+    text-align: center;
+}
+
+label {
+    display: block;
+    margin-top: 10px;
+}
+
+input,
+textarea {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    box-sizing: border-box;
+}
+
+textarea {
+    height: 80px;
+}
+
+button {
+    padding: 10px 20px;
+    margin: 15px 5px 15px 0;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th,
+td {
+    border: 1px solid black;
+    padding: 10px;
+    text-align: center;
+}
+
+th {
+    background: #ddd;
+}
+
+#message {
+    text-align: center;
+    font-weight: bold;
+}
